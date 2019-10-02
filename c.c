@@ -11,7 +11,7 @@ string compress(string text)
    { count=1;
       for(j=i+1;j<strlen(text);j++)
      {
-        if(text[i]==text[j])
+        if(text[i]!=text[j])
         count++;
         else
         break;
